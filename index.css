@@ -1,13 +1,28 @@
+/* red code: #f95e54 */
+/* gra: d4d5d8 */
 body {
+
     font-family: "Poppins",Arial,sans-serif;
     font-size: 17px;
     margin:0;
     flex-wrap: wrap;
 }
-.textmarginleft{
+.lore-part-one{
+    color: black;
+    opacity: 0.6;
+}
+.text-margin-left-30{
     margin-left: 30px;
 }
-   
+.gray-color-class{
+    color: #d4d5d8;
+}
+.red-color-class{
+    color: #f95e54;
+}
+.white-color-class{
+    color: white;
+}
 .headbar {
     height: 5%;
     background-color: dodgerblue;
@@ -23,7 +38,7 @@ body {
     padding: 0 70px
 
 }
-.emailaddress{
+.email-address{
     width: 33.33%;
     margin-left: 100px;
     align-self: center;
@@ -33,35 +48,35 @@ body {
     display: flex;
     width: 33.33%;
     background-color: dodgerblue;
-    color: white; 
+    color: white;
     justify-content: flex-end;
     align-self: center;
     padding: 0 70px
 }
-#signupbutton{
+#signup-button{
     background-color: dodgerblue;
     color: white;
 }
-#signinbutton{
+#signin-button{
     background-color: dodgerblue;
     color: white;
 }
-.verticalline{
+.vertical-line{
     color: white;
     margin-left: 4px;
     margin-right: 4px;
     top: 0;
     border-left: 1px solid white;
 }
-.first_part{
+.first-part{
     background-image: url('tp7/xbg_3.png');
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
-    height: auto;
+    height: 100%;
     flex-wrap: wrap;
-    
+
 }
 .navbar{
     background-color: rgba(255, 255, 255,0.5);
@@ -75,7 +90,7 @@ body {
     list-style-type: none;
     justify-content:flex-end;
     /* margin-left: 30px; */
-    font-size: 23px;
+    font-size: 20px;
     width: 70%;
     /* flex-wrap: wrap; */
     /* height: auto; */
@@ -84,7 +99,7 @@ body {
 a{
     text-decoration: none;
 }
-.medipluslogo{
+.mediplus-logo{
     padding: 10px 10px;
     justify-content: flex-start;
     width: auto;
@@ -97,11 +112,11 @@ li a{
     padding: 20px ;
     color: black;
 }
-#appointmentbutton{
-   
+#appointment-button{
+
     text-align: center;
     border-radius: 7%;
-    background-color: tomato;
+    background-color: #f95e54;
     color:white;
     border:none;
     align-self: center;
@@ -109,15 +124,15 @@ li a{
     /* padding: 20px 27px; */
     margin-right: 30px;
 }
-.textcontainer1{
+.text-container-1{
     display: flex;
     flex-direction: column;
     padding: 20px 70px;
     width: 49%;
     flex-wrap: wrap;
-    
+
 }
-.welcomebanner{
+.welcome-banner{
     padding-top: 50px;
     color: dodgerblue;
     font-size: 20px;
@@ -134,97 +149,90 @@ li a{
     margin-top: 0;
 }
 .lore{
-    opacity: 0.6;
+    color: #9ea2af;
     width: 100%;
     font-size: 22px;
 }
 
-#appointmentbutton2{
+#appointment-button-2{
     background-color: dodgerblue;
     border-radius: 35px;
     color: white;
     text-align: center;
-    padding: 20px 20px;
+    padding: 25px 15px;
     border: none;
     text-decoration: none;
     display: inline-block;
     margin: 4px 2px;
-    width: 40%;
+    width: 30%;
     font-size: 16px;
 }
-.pillbutton{
+.pill-button{
     border-radius: 35px;
     text-align: center;
-    padding: 25px 25px;
+    padding: 25px 20px;
     border: none;
     text-decoration: none;
     display: inline-block;
     margin: 4px 2px;
     width: 50%;
-    font-size: 25px;
+    font-size: 22px;
 
 
 }
 /* second part css*/
 
-#secondpart{
+#second-part{
     display: flex;
     justify-content: space-around;
     align-content: center;
-    height: auto;
+    height: 90%;
 }
 
-.picturedocoldlady img{
+.picture-doc-oldlady img{
     margin-left: 100px;
     max-width: 70%;
     height: 100%;
 }
-.textsecondpart{
+.text-second-part{
     align-self: center;
     width: 40%;
     margin-right: 10%;
+
 }
-.textsecondpart h1{
-    font-size: 65px;
+.text-second-part h1{
+    font-size: 60px;
 }
-.mediplusblue{
+.mediplus-blue{
     color: dodgerblue;
 
 }
-.p2buttons {
+.p2-buttons {
     display: flex;
-    
 }
 
-#appointmentbutton3{
+#appointment-button-3{
     background-color: dodgerblue;
     border-radius: 37px;
     color: white;
-
-    /* text-align: center; */
-    /* padding: 10px 20px; */
-    /* border: none; */
-    /* text-decoration: none; */
-
+    font-size: 22px;
 }
-.contactusbutton{
-    background-color: tomato;
-    border-radius: 37px;
+.contactus-button{
+    background-color: #f95e54;
+    border-radius: 40px;
     color: white;
     text-align: center;
-    padding: 8px 40px;
+    padding: 8px 20px;
     border: none;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
     margin-left: 4px;
-    
 }
 
-/* Third part */
+/* Third part your health our priority*/
 
+#third-part{
 
-#thirdpart{
-    
     background-repeat: no-repeat;
     background-image: url('tp7/xbg_2.png');
     display: flex;
@@ -243,25 +251,23 @@ li a{
     width: 100%;
     height: 100%;
 } */
-.thirdparttext{
+.third-part-text{
     text-align: center;
     color: white;
     align-self: center;
-    opacity:1;   
+    opacity:1;
 }
-.thirdparttext h1{
+.third-part-text h1{
     font-size: 75px;
     margin-top: -80px;
     margin-bottom: 20px;
 }
-.thirdparttext p{
+.third-part-text p{
     margin-bottom: 20px;
     font-size: 27px;
 }
-.findplacesbutton{
+.find-places-button{
     color: black;
-    /* padding: 10px 20px; */
-    /* border-radius: 16px; */
     text-decoration: none;
     background-color: white;
     border-radius: 37px;
@@ -273,72 +279,69 @@ li a{
     margin-left: 4px;
 }
 
-/* Fourth part qualified doctors*/
+/* Fourth part our qualified doctors*/
 
-#fourthpart{
+#fourth-part{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.fourthhead{
+.fourth-head{
     color: black;
     text-align: center;
     margin-top: 50px;
     width: 51%;
 }
-.fourthhead h1{
+.fourth-head h1{
     font-size: 50px;
 }
-/* .fourthhead p{
-    width:70% 
-} */
-.fourthcards{
+.fourth-cards{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 20px;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
-.fourthcards div{
+.fourth-cards div{
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
-.doctorname{
+.doctor-name{
     text-align: center;
     font-size: 35px;
     margin-bottom: -3px;
 }
-.jobtitle{
+.job-title{
     text-align: center;
     color: dodgerblue;
-    letter-spacing: 0.1mm; 
-    font-size: 13px;
+    letter-spacing: 3px;
+    font-size: 17px;
     font-weight: 700;
 }
-.aboutdoctor{
+.about-doctor{
+    color: #9ea2af;
     text-align: center;
-    opacity: 0.6;
     font-size: 30px;
 }
-.booknow{
+.book-now{
     background-color: dodgerblue;
     border-radius: 30px;
     color: white;
     text-align: center;
-    padding: 15px 20px;
+    padding: 15px 15px;
     border: none;
-    text-decoration: none; 
+    text-decoration: none;
     font-size: 30px;
 }
 
 .card{
-    margin: 10px 10px;
-    width: 23%;
+    margin: 10px 35px;
+    width: 20%;
 }
 .card img{
     object-fit: cover;
@@ -348,16 +351,16 @@ li a{
 }
 
 /* Fifth part stats part*/
-#fifthpart{
+#fifth-part{
     margin-top: 150px;
     background-image: url('tp7/xbg_3.png');
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: auto;
-    
+    height: 80%;
+
 }
-.bluelayer{
+.blue-layer{
     background-color: dodgerblue;
     opacity: 0.8;
     width: 100%;
@@ -366,33 +369,34 @@ li a{
     justify-content:space-around;
     align-items: center;
 }
-.fifthparttext{
+.fifth-parttext{
     color: white;
     width: 42%;
     padding: 20px 70px;
     margin-right: 0;
+}
 
+.fifth-parttext h1{
+    font-size: 67px;
 }
-.fifthparttext h1{
-    font-size: 80px;
+.fifth-parttext h5{
+    font-size: 15px;
+    letter-spacing: 3px;
 }
-.fifthparttext h5{
-    font-size: 20px;
-}
-.redpillbuttonclass{
-    background-color: red;
+.red-pill-button-class{
+    background-color: #f95e54;
     color: white;
     text-align: center;
     border-radius: 30px;
     border: none;
     text-decoration: none;
-    padding: 10px 10px;
+    padding: 20px 20px;
     font-size: 20px;
 }
-.tableclass{
+.table-class{
     width: 50%;
 }
-.tableclass table{
+.table-class table{
 
     margin: 0 auto;
     border-collapse: collapse;
@@ -401,75 +405,86 @@ li a{
     font-size: 40px;
     padding-right: 50px;
     margin-left: 0;
-    /* align-self: flex-start; */
 }
 table td {
     text-align: center;
     padding: 20px;
     padding: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    
+
+}
+.table-numbers{
+    margin-bottom: 5px;
+}
+.table-text{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 /* sixth part Articles here Gets every single update here*/
-#sixthpart{
+
+#sixth-part{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.sixthhead{
+.sixth-head{
     text-align: center;
 }
-.sixthhead h1{
+.sixth-head h1{
     font-size: 65px;
     padding-top: 60px;
 }
-.sixthhead p{
+.sixth-head p{
     font-size: 28px;
     padding-bottom: 90px;
 }
-.sixthcardsr1{
+.sixth-cards-r1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 100px;
     width: 100%;
 }
-.postdatesixth{
-    color: tomato;
+.post-date-sixth{
+    color: #f95e54;
+    word-spacing:6px
 }
-.sixcard1{
-    margin: 10px 10px;
-    padding-left: 30px;
+.six-card-1{
+    margin: 10px 2%;
     width: 26%;
     margin-right: 0;
     height: 100%;
 }
-
-.sixcard1 img{
+.story-highlight{
+    font-size: 30px;
+}
+.six-card-1 img{
     object-fit: cover;
     width: 100%;
     height: 70%;
 
 }
-
+.font-size-22{
+    font-size:22px;
+}
 /* Seventh part OUR PATIENT SAYS Testimonials*/
-#seventhpart{
+#seventh-part{
     background-image: url('tp7/xbg_3.png');
     background-size:auto;
     background-repeat: no-repeat;
-    /* background-position: 100px 0px; */
     width: 100%;
-    height: auto;
+    height: 100%;
     margin-top: 150px;
     z-index: 0;
 }
-.bluelayerseventh{
+.blue-layer-seventh{
     background-color: dodgerblue;
     opacity: 0.8;
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -477,26 +492,28 @@ table td {
     align-items: center;
     z-index: 1;
 }
-.seventhparttext{
-    color: white;
+.seventh-part-text{
     text-align:  center;
     z-index: 2;
+    height: auto;
 }
-.seventhparttext h1{
+.seventh-part-text h1{
+    margin-top: 0px;
     font-size: 60px;
 }
-.seventhpos{
+.seventh-pos{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
+    margin-top: 0px;
 }
-.seventhptr{
+.seventh-ptr{
     width: 15%;
     opacity: 1.0;
 }
-.seventhptr img{
+.seventh-ptr img{
     align-self: center;
     border-radius: 50%;
     width: 200px;
@@ -505,13 +522,13 @@ table td {
     height: 200px;
     position: absolute;
 }
-.redblackgroundcircle{
+.red-blackground-circle{
     border-radius: 50%;
     background-color: red;
     padding: 10px;
 
 }
-.iconpositionseventh
+.icon-position-seventh
 {
     margin-top: 170px;
     margin-left: 150px;
@@ -520,72 +537,68 @@ table td {
 
 /* Eighth part CONTACT US section */
 
-#contactussection{
+#contactus-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding-top: 100px;
-
-    
 }
-.contactushead{
+.contactus-head{
     text-align: center;
     color: black;
     padding: 10px 10px;
     width: 50%;
 }
-.contactushead h1{
+.contactus-head h1{
     font-size: 65px;
 }
-.contactushead p{
+.contactus-head p{
     font-size: 30px;
 }
 /* cards */
-.contactuscards{
+.contactus-cards{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
-    
-}
-.blacktext{
-    color: black;
-}
-.form{
-    flex-direction: column;
 
 }
-.carddivs{
+#address-card{
+    /* height: 80%; */
+    padding: 90px 20px;
+}
+.black-text{
+    color: black;
+}
+
+.card-divs{
     width: 16%;
     text-align: center;
     background-color:#f8f9fa;
     padding: 50px 20px 150px 20px;
     margin: 100px 20px;
-    
-    /* height: 100%; */
-    
-    
 }
-.carddivs i{
+.card-divs i{
     border-radius: 50%;
     background-color: white;
     padding: 50px;
-    /* height: 70%; */
+}
+.card-divs h5{
+    font-size: 20px;
 }
 .tst{
     width: 100%;
-    font-size: 12.8;
+    font-size: 20px;
 }
-/* maps form */
-.mapandform{
+/* maps AND form */
+.map-and-form{
     display: flex;
     justify-content:center;
     align-items: center;
     width: 100%;
-    flex-wrap: wrap;
     border-top: -50px;
 }
 .maps{
@@ -596,10 +609,13 @@ iframe{
     width: 100%;
 }
 .form{
+    flex-direction: column;
     width: 40%;
     display: flex;
-    justify-self:flex-end;
-    background-color:#f8f9fa;
+    justify-self: flex-end;
+    background-color: #f8f9fa;
+    padding: 85px;
+    padding-left:0px;
 
 
 }
@@ -609,7 +625,6 @@ input{
     margin: 10px 20px;
     border-radius: 5px;
     border-color: rgba(0, 0, 0, 0.1);
-
 }
 textarea{
     width: 80%;
@@ -618,21 +633,21 @@ textarea{
     border-radius: 5px;
     border-color: rgba(0, 0, 0, 0.1);
 }
-.marginclass10{
+.margin-class-10{
     margin: 10px 20px;
 
 }
 
 /* last part FOOTER */
-.footerbackground{
+.footer-background{
     background-image: url('tp7/stethoscope-white.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60%;
+    height: 90%;
     margin-top: 150px;
-    /* height: 100%; */
+    display: flex;
 }
-.whitefog{
+.white-fog{
     background-color: white;
     opacity: 0.7;
     width: 100%;
@@ -644,77 +659,89 @@ textarea{
 }
 .sitemap{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
 }
-.textblueclass{
+.text-blue-class{
     color: dodgerblue;
 }
-.positionsitemap{
-    width: auto;
+.position-sitemap{
+    flex:20%;
     height: 100%;
-    padding: 16px;
+    padding-left: 20px;
     text-align: left;
 }
-.leftaligntext{
+.position-sitemap p {
+    padding-left: 20px;
+}
+.position-sitemap h2 {
+    padding-left: 20px;
+}
+.position-sitemap i {
+    padding-left: 20px;
+}
+.left-align-text{
     text-align: left;
 }
-.mobileonlyhor{
+.mobile-only-hor{
     display: none;
 }
-.mobileonlyvertical{
+.mobile-only-vertical{
     display: none;
+}
+.font-size-22-class{
+    font-size:22px;
 }
 
 /* smallerscreens laptops */
 
-@media screen and (min-width: 1440px) { 
+@media screen and (max-width: 1440px) {
 
-    .first_part{
-        height: 90%;
+    .first-part{
+        height: auto;
+        font-size: 25px;
     }
     #secondpart{
         height: 110%;
     }
+    .text-second-part h1{
+        font-size: 40px;
+    }
+    #appointment-button-2{
+        padding: 15px 15px;
+        width: 40%;
+        font-size: 15px;
+    }
 }
 
 /*mobile  */
-@media screen and (max-width: 1050px) { 
+@media screen and (max-width: 1060px) {
     .horizontalclass{
         display: flex;
     }
-    .mobileonlyvertical{
+    .mobile-only-vertical{
         display: flex;
         flex-direction: column;
     }
-    .firstpart{
-        background-image: url('tp7/xbg_3.png');
+    .first-part{
         background-position:bottom;
-        background-repeat: no-repeat;
-        background-size: cover;
-        /* height: 50%; */
-        height: auto;
-        /* flex-wrap: wrap; */
     }
     .headbar{
         display: none;
     }
     .navbar{
-        height: auto;
-        width: 100%;
         background-color: black;
         color: white;
-        display: flex;
         justify-content:space-around;
 
     }
-    .menuicon{
+    .menu-icon{
         display: flex;
         opacity: 0.5;
         margin-right: 10px;
     }
-    .medipluslogo{
+    .mediplus-logo{
         flex: 50%;
         margin-left: 0;
         margin-top: -0px;
@@ -722,430 +749,291 @@ textarea{
     .navlinks{
         display: none;
     }
-    .colorwhite{
+    .color-white{
         color: white;
     }
-    .mobileonlyhor{
+    .mobile-only-hor{
         display: inline-block;
     }
 
 /* SLOGAN */
 
-    .textcontainer1{
+    .text-container-1{
         width: 90%;
-        margin-left: 0;
-        padding: 0 15px;
+        justify-content:center;
+        margin: 0 10px;
+        padding: 0 ;
     }
-    .welcomebanner{
+    .welcome-banner{
         font-size: 11px;
     }
     .slogan{
         font-size: 18px;
     }
     .lore{
-        opacity:0.5;
         font-size: 15px;
         width: auto;
     }
-    #appointmentbutton2{
-        background-color: dodgerblue;
-        border-radius: 35px;
-        color: white;
-        text-align: center;
+    #appointment-button-2{
         padding: 15px 0px;
-        border: none;
-        text-decoration: none;
-        display: inline-block;
-        margin: 4px 2px;
         width: 40%;
         font-size: 15px;
         margin-bottom: 25px;
     }
 
     /* Second part */
-        
-    #secondpart{
-        display: flex;
+
+    #second-part{
         flex-direction: column;
-        justify-content: space-around;
-        align-content: center;
         height: auto;
     }
 
-    .picturedocoldlady img{
+    .picture-doc-oldlady img{
         margin: 0% 5%;
         width:fit-content;
-        max-width: 90%; 
+        max-width: 90%;
     }
 
     /* ////picturedone/// */
 
-    .textsecondpart{
-        align-self: center;
+    .text-second-part{
         width: 90%;
         margin: 0 5%;
     }
-    .textsecondpart h1{
+    .text-second-part h1{
         font-size: 28px;
     }
-    .mediplusblue{
-        color: dodgerblue;
-
-    }
-    .p2buttons {
-        display: flex;
+    .p2-buttons {
         flex-direction: column;
-        /* max-width: 90%; */
-        /* margin: 0 5%; */
         margin-bottom: 40px;
     }
-    .pillbutton{
+    .pill-button{
         border-radius: 16px;
-        text-align: center;
         padding: 15px 15px;
-        border: none;
-        text-decoration: none;
-        /* display: inline-block; */
-        /* margin: 4px 2px; */
         width: 100%;
         font-size: 15px;
-    
-    
     }
-
-    #appointmentbutton3{
-        background-color: dodgerblue;
-        /* border-radius: 37px; */
-        color: white;
-
-        /* text-align: center; */
-        /* padding: 5px 20px; */
-        border: none;
-        text-decoration: none;
-
-    }
-    .contactusbutton{
-        background-color: tomato;
-        border-radius: 25px;
-        color: white;
-        text-align: center;
-        padding: 15px 15px;
-        border: none;
-        text-decoration: none;
+    #appointment-button-3{
         font-size: 15px;
     }
 
-    /* mobile only SERVICES */
-    .subtlebackgroundcolor{
-        background-color: #f8f9fa;
+    .contactus-button{
+        border-radius: 25px;
+        padding: 15px 15px;
+        font-size: 15px;
     }
-    .headingtext{
+    .heading-text{
         margin: 0 5%;
     }
-    .blackcolorclass{
+    .black-color-class{
         color: black;
     }
-    .peachiconsclass{
-        color: tomato;
-        background-color: peachpuff;
+    .peach-icons-class{
+        color: #f95e54;
+        background-color: #feeeed;
         border-radius: 50%;
         padding: 20px;
     }
-    .contentmarginsides{
+    .content-margin-sides{
         margin: 0% 5%;
     }
-    .removepaddingleft{
+    .remove-padding-left{
         padding-left: 0;
     }
-    .removepaddingright{
+    .remove-padding-right{
         padding-right: 0;
     }
-    .margintop{
+    .margin-top{
         margin-top: 50px;
     }
-    .marginbottom50{
+    .margin-bottom-50{
         margin-bottom: 50px;
     }
-    .backgroundcolorwhite{
+    .background-color-white{
         background-color: white;
     }
-    .pillinput{
+    .pill-input{
         border-radius: 25px;
-        /* text-align: center; */
         padding: 16px 15px;
         border: 1px solid rgb(194, 194, 194);
         text-decoration: none;
-        /* display: inline-block; */
-        /* margin: 4px 2px; */
         width: 90%;
         font-size: 15px;
         margin-bottom: 10px;
     }
-    #timepicker:before {
+    #time-picker:before {
         content:'Time:';
     }
 
     /* Third part your health is our priority */
-    .thirdparttext{
-        text-align: center;
-        color: white;
-        align-self: center;
-        opacity:1;
+    #third-part{
+        height: 80%;
+    }
+    .third-part-text{
         margin: 0 5%;
     }
-    .thirdparttext h1{
+    .third-part-text h1{
         font-size: 55px;
-        margin-top: -80px;
-        margin-bottom: 20px;
     }
-    .thirdparttext p{
-        margin-bottom: 20px;
+    .third-part-text p{
         font-size: 20px;
     }
-    .findplacesbutton{
-        color: black;
-        /* padding: 10px 20px; */
-        /* border-radius: 16px; */
-        text-decoration: none;
-        background-color: white;
-        border-radius: 37px;
-        text-align: center;
+    .find-places-button{
         padding: 20px 20px;
-        border: none;
-        text-decoration: none;
         font-size: 20px;
-        margin-left: 4px;
     }
 
     /* mobile only DEPARTMENTS part */
-    .centralisevertical{
+    .departments-mobile-only-width{
+        width:100%;
+    }
+    .centralise-vertical{
         justify-content: center;
         align-items: center;
     }
-    .blueiconclass{
+    .blue-icon-class{
         color: dodgerblue;
         background-color: white;
         border-radius: 50%;
         padding: 20px;
 
     }
-    .bottombordersolid{
+    .bottom-border-solid{
         border-bottom: 1px solid rgb(194, 194, 194); ;
-        
+
     }
-    .sectionendpadding50{
+    .section-end-padding-50{
         padding-bottom: 50px;
     }
-    
+
     /*      <!-- Fourth part OUR QUALIFIED DOCTORS--> */
 
-    .fourthhead{
-        color: black;
-        text-align: center;
-        margin-top: 50px;
+    .fourth-head{
         width: 90%;
     }
-    .fourthhead h1{
+    .fourth-head h1{
         font-size: 30px;
     }
-    .fourthcards{
-        display: flex;
+    .fourth-cards{
         flex-direction: column;
-        flex-wrap: wrap;
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
     }
-    .fourthcards div{
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
+    .doctor-name{
+        font-size: 30px;
+    }
+    .job-title{
+        font-size: 13px;
+    }
+    .about-doctor{
+        font-size: 15px;
+
+    }
+    .book-now{
+
+        padding: 10px 20px;
+        font-size: 15px;
     }
 
-    .doctorname{
-        text-align: center;
-        font-size: 30px;
-        margin-bottom: -3px;
-    }
-    .jobtitle{
-        text-align: center;
-        color: dodgerblue;
-        letter-spacing: 0.1mm; 
-        font-size: 13px;
-        font-weight: 700;
-    }
-    .aboutdoctor{
-        text-align: center;
-        opacity: 0.6;
-        font-size: 15px;
-    }
-    .booknow{
-        background-color: dodgerblue;
-        border-radius: 30px;
-        color: white;
-        text-align: center;
-        padding: 10px 20px;
-        border: none;
-        text-decoration: none; 
-        font-size: 15px;
-    }
-    
     .card{
         margin: 10px 10%;
         width: 80%;
     }
-    .card img{
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-    
-    }
-    
     /* STATS PART */
-    
-    #fifthpart{
-        
+
+    #fifth-part{
+
         height: auto;
     }
-    
-    .bluelayer{
-        background-color: dodgerblue;
-        opacity: 0.9;
-        width: 100%;
-        height: auto;
+
+    .blue-layer{
         display: flex;
+        opacity: 0.9;
+        height: auto;
         flex-direction: column;
-        justify-content:space-around;
-        align-items: center;
     }
-    .fifthparttext{
-        color: white;
+    .fifth-parttext{
         width: 90%;
         height: auto;
-        padding: 20px 70px;
-        margin-right: 0;
+        padding: 0 0;
         margin-top: 40px;
-    
+
     }
-    .fifthparttext h1{
+    .fifth-parttext h1{
         font-size: 30px;
     }
-    .fifthparttext h5{
+    .fifth-parttext h5{
         font-size: 13px;
     }
-    .redpillbuttonclass{
-        background-color: red;
-        color: white;
-        text-align: center;
-        border-radius: 30px;
-        border: none;
+    .red-pill-button-class{
+
         width: 100%;
-        text-decoration: none;
         padding: 10px 10px;
-        font-size: 20px;
     }
-    .tableclass{
+    .table-class{
         display: none;
     }
-    .statsclass{
+    .stats-class{
         width: 100%;
         color: white;
-        
+
     }
-    .tablenumbers{
+    .table-numbers{
         font-size: 50px;
         margin-bottom: -5px;
     }
 
     /*     <!-- sixth part Gets every single update here/ Articles section--> */
-    
-    .sixthhead{
+
+    .sixth-head{
         width: 95%;
     }
-    .sixthhead h1{
+    .sixth-head h1{
         font-size: 30px;
-        padding-top: 60px;
     }
-    .sixthhead p{
+    .sixth-head p{
         font-size: 15px;
-        padding-bottom: 90px;
     }
-    .sixthcardsr1{
-        display: flex;
+    .sixth-cards-r1{
         flex-direction: column;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-bottom: 100px;
         width: 90%;
     }
-    .postdatesixth{
-        color: tomato;
-    }
-    .sixcard1{
+    .six-card-1{
         margin: 5% 0;
         padding-left: 30px;
         width: 90%;
-        margin-right: 0;
     }
-    
-    .sixcard1 img{
-        object-fit: cover;
-        width: 100%;
+
+    .six-card-1 img{
         height: auto;
-    
+
     }
-    .opacityclass{
+    .opacity-class{
         opacity: 0.6;
 
     }
 
     /*     <!-- Testimionials Seventh part OUR PATIENT SAYS--> */
 
-    #seventhpart{
-        background-image: url('tp7/xbg_3.png');
-        background-size:auto;
-        background-repeat: no-repeat;
-        width: 100%;
+    #seventh-part{
         height: auto;
-        margin-top: 150px;
-        z-index: 0;
     }
-    .bluelayerseventh{
-        background-color: dodgerblue;
-        opacity: 0.8;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
+    .blue-layer-seventh{
         justify-content:space-around;
-        align-items: center;
-        z-index: 1;
     }
-    .seventhparttext{
+    .seventh-part-text{
         color: white;
-        text-align:  center;
         margin-top: 50px;
-        z-index: 2;
     }
-    .seventhparttext h1{
+    .seventh-part-text h1{
         font-size: 30px;
     }
-    .seventhpos{
-        display: flex;
+    .seventh-pos{
         justify-content: center;
         flex-direction: column;
-        align-items: center;
-        width: 100%;
-        flex-wrap: wrap;
     }
-    .seventhptr{
-
+    .seventh-ptr{
         display: none;
     }
-    .seventhptrmob img{
+    .seventh-ptr-mob img{
         align-self: center;
         border-radius: 50%;
         width: 200px;
@@ -1154,175 +1042,111 @@ textarea{
         height: 200px;
         position: relative;
     }
-    .redblackgroundcircle{
-        border-radius: 50%;
-        background-color: red;
-        padding: 10px;
+    .red-blackground-circle{
         width: 3%;
-    
-    }
-    .iconpositionseventh
-    {
-        /* margin-top: 170px;*/
-        margin: 0% 55% 0% 55%;
-        margin-bottom: -30px;
-        /* margin-left: 250px;; */
-        /* position: absolute; */
-    }
-    .seventhptrmob{
-        width: 90%;
-        opacity: 1.0;
 
     }
-    
+    .icon-position-seventh
+    {
+        margin: 0% 55% 0% 55%;
+        margin-bottom: -30px;
+    }
+    .seventh-ptr-mob{
+        width: 90%;
+        opacity: 1.0;
+    }
     /*     <!-- Eighth part contact us --> */
 
 
-    .contactushead{
-        text-align: center;
-        color: black;
-        padding: 10px 10px;
+    .contactus-head{
         width: 90%;
     }
-    .contactushead h1{
+    .contactus-head h1{
         font-size: 30px;
     }
-    .contactushead p{
+    .contactus-head p{
         font-size: 15px;
     }
     /* cards */
-    .contactuscards{
+    .contactus-cards{
         flex-direction: column;
-        width: 90%;        
+        width: 90%;
     }
-    .form{
-        flex-direction: column;    
-    }
-    .carddivs{
+    .card-divs{
         width: 90%;
         text-align: center;
         background-color:#f8f9fa;
         padding: 50px 20px 150px 20px;
         margin: 50px 0%;
-        /* height: 100%; */
-        
-        
     }
-    .carddivs i{
+    .card-divs i{
         border-radius: 50%;
         background-color: white;
         padding: 50px;
-        /* height: 70%; */
     }
     .tst{
         width: 100%;
         font-size: 12.8;
     }
     /* maps form */
-    .mapandform{
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        align-items: center;
-        width: 100%;
-        flex-wrap: wrap;
-        border-top: -50px;
+    .map-and-form{
+        flex-direction: column-reverse;
+
     }
     .maps{
-        width: 90%;
-        order: 2;
+        width: 100%;
+    }
+    .maps iframe{
+        width:"600";
+        height:"450";
     }
     .form{
-        width: 90%;
-        display: flex;
-        justify-self:flex-end;
-        background-color:#f8f9fa;
-        order: 1;
-    
+        flex-direction: column;
+        height:auto;
+        padding: 0;
+        width: 100%;
+
     }
-    .font15class{
+    .font-15-class{
         font-size: 15px;
     }
-    input{
-        width: 80%;
-        padding: 10px 10px;
-        margin: 10px 20px;
-        border-radius: 5px;
-        border-color: rgba(0, 0, 0, 0.1);
-    
-    }
-    textarea{
-        width: 80%;
-        padding: 10px 10px;
-        margin: 10px 20px;
-        border-radius: 5px;
-        border-color: rgba(0, 0, 0, 0.1);
-    }
-    .marginclass10{
-        margin: 10px 20px;
-    
-    }
-
     /*  footer sitemap */
 
-    .footerbackground{
-        background-image: url('tp7/stethoscope-white.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
+    .footer-background{
         height: auto;
-        margin-top: 150px;
     }
-    .whitefog{
-        background-color: white;
-        opacity: 0.7;
-        width: 100%;
+    .white-fog{
         height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
     }
     .sitemap{
-        display: flex;
         flex-direction: column;
         justify-content: space-around;
-        align-items: center;
         width: 90%;
     }
 
-    .positionsitemap{
+    .position-sitemap{
         width: 100%;
         height: auto;
         padding: 16px;
-        text-align: left;
-    
-
     }
-    .footertable{
+    .footer-table{
         width: 90%;
         height: auto;
         text-align: left;
     }
-    .footertable td{
+    .footer-table td{
         padding-left: 0;
         width: auto;
-    }
-    .fontsize15{
-        font-size: 15px;
     }
     .copyright{
         text-align: center;
         font-size: 15px;
         margin: 50px 5%;
     }
-    .whiteiconclass{
+    .white-icon-class{
         color: white;
         background-color: dodgerblue;
         border-radius: 50%;
-        padding: 10px;
-
+        padding: 20px;
     }
-
-    
-    
 }

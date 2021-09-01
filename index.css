@@ -1,7 +1,4 @@
-/* red code: #f95e54 */
-/* gra: d4d5d8 */
 body {
-
     font-family: "Poppins",Arial,sans-serif;
     font-size: 17px;
     margin:0;
@@ -10,9 +7,17 @@ body {
 .lore-part-one{
     color: black;
     opacity: 0.6;
+    font-size: 25px;
+    width: 70%;
 }
 .text-margin-left-30{
     margin-left: 30px;
+}
+.margin-left-10{
+    margin-left: 10px;
+}
+.dodger-blue-class{
+    color: dodgerblue;
 }
 .gray-color-class{
     color: #d4d5d8;
@@ -23,7 +28,7 @@ body {
 .white-color-class{
     color: white;
 }
-.headbar {
+.headbar{
     height: 5%;
     background-color: dodgerblue;
     color: white;
@@ -36,7 +41,6 @@ body {
     width: 33.33%;
     align-self: center;
     padding: 0 70px
-
 }
 .email-address{
     width: 33.33%;
@@ -76,7 +80,6 @@ body {
     width: auto;
     height: 100%;
     flex-wrap: wrap;
-
 }
 .navbar{
     background-color: rgba(255, 255, 255,0.5);
@@ -89,11 +92,8 @@ body {
     display: flex;
     list-style-type: none;
     justify-content:flex-end;
-    /* margin-left: 30px; */
     font-size: 20px;
     width: 70%;
-    /* flex-wrap: wrap; */
-    /* height: auto; */
     align-items: center;
 }
 a{
@@ -107,7 +107,6 @@ a{
     align-self: center;
     font-weight: bolder;
 }
-
 li a{
     padding: 20px ;
     color: black;
@@ -121,7 +120,6 @@ li a{
     border:none;
     align-self: center;
     font-size: 17px;
-    /* padding: 20px 27px; */
     margin-right: 30px;
 }
 .text-container-1{
@@ -130,20 +128,17 @@ li a{
     padding: 20px 70px;
     width: 49%;
     flex-wrap: wrap;
-
 }
 .welcome-banner{
     padding-top: 50px;
     color: dodgerblue;
     font-size: 20px;
     font-weight: 900;
-
 }
 .slogan{
     font-size: 40px;
     font-weight: bold;
     height: auto;
-
 }
 .slogan h1{
     margin-top: 0;
@@ -153,7 +148,6 @@ li a{
     width: 100%;
     font-size: 22px;
 }
-
 #appointment-button-2{
     background-color: dodgerblue;
     border-radius: 35px;
@@ -177,18 +171,14 @@ li a{
     margin: 4px 2px;
     width: 50%;
     font-size: 22px;
-
-
 }
-/* second part css*/
-
+/* second part old lady css/ We are mediplus*/
 #second-part{
     display: flex;
     justify-content: space-around;
     align-content: center;
     height: 90%;
 }
-
 .picture-doc-oldlady img{
     margin-left: 100px;
     max-width: 70%;
@@ -198,19 +188,16 @@ li a{
     align-self: center;
     width: 40%;
     margin-right: 10%;
-
 }
 .text-second-part h1{
     font-size: 60px;
 }
 .mediplus-blue{
     color: dodgerblue;
-
 }
 .p2-buttons {
     display: flex;
 }
-
 #appointment-button-3{
     background-color: dodgerblue;
     border-radius: 37px;
@@ -228,9 +215,7 @@ li a{
     font-size: 22px;
     margin-left: 4px;
 }
-
-/* Third part your health our priority*/
-
+/* Third part your health is our priority*/
 #third-part{
 
     background-repeat: no-repeat;
@@ -243,14 +228,7 @@ li a{
     justify-content: center;
     align-items: center;
     background-position: center;
-
 }
-/* .blacklayer{
-    background-color: black;
-    opacity: .3;
-    width: 100%;
-    height: 100%;
-} */
 .third-part-text{
     text-align: center;
     color: white;
@@ -278,9 +256,7 @@ li a{
     font-size: 25px;
     margin-left: 4px;
 }
-
 /* Fourth part our qualified doctors*/
-
 #fourth-part{
     display: flex;
     flex-direction: column;
@@ -338,7 +314,6 @@ li a{
     text-decoration: none;
     font-size: 30px;
 }
-
 .card{
     margin: 10px 35px;
     width: 20%;
@@ -347,9 +322,7 @@ li a{
     object-fit: cover;
     width: 100%;
     height: 100%;
-
 }
-
 /* Fifth part stats part*/
 #fifth-part{
     margin-top: 150px;
@@ -358,7 +331,6 @@ li a{
     background-position: center;
     width: 100%;
     height: 80%;
-
 }
 .blue-layer{
     background-color: dodgerblue;
@@ -375,7 +347,6 @@ li a{
     padding: 20px 70px;
     margin-right: 0;
 }
-
 .fifth-parttext h1{
     font-size: 67px;
 }
@@ -397,7 +368,6 @@ li a{
     width: 50%;
 }
 .table-class table{
-
     margin: 0 auto;
     border-collapse: collapse;
     border-style: hidden;
@@ -411,7 +381,6 @@ table td {
     padding: 20px;
     padding: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
-
 }
 .table-numbers{
     margin-bottom: 5px;
@@ -421,9 +390,7 @@ table td {
     margin-top: 0px;
     margin-bottom: 50px;
 }
-
 /* sixth part Articles here Gets every single update here*/
-
 #sixth-part{
     display: flex;
     justify-content: center;
@@ -465,7 +432,6 @@ table td {
     object-fit: cover;
     width: 100%;
     height: 70%;
-
 }
 .font-size-22{
     font-size:22px;
@@ -476,7 +442,7 @@ table td {
     background-size:auto;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: auto;
     margin-top: 150px;
     z-index: 0;
 }
@@ -508,6 +474,7 @@ table td {
     width: 100%;
     flex-wrap: wrap;
     margin-top: 0px;
+    height: auto;
 }
 .seventh-ptr{
     width: 15%;
@@ -526,17 +493,13 @@ table td {
     border-radius: 50%;
     background-color: red;
     padding: 10px;
-
 }
-.icon-position-seventh
-{
+.icon-position-seventh{
     margin-top: 170px;
     margin-left: 150px;
     position: relative;
 }
-
 /* Eighth part CONTACT US section */
-
 #contactus-section{
     display: flex;
     flex-direction: column;
@@ -564,16 +527,13 @@ table td {
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
-
 }
 #address-card{
-    /* height: 80%; */
     padding: 90px 20px;
 }
 .black-text{
     color: black;
 }
-
 .card-divs{
     width: 16%;
     text-align: center;
@@ -616,8 +576,6 @@ iframe{
     background-color: #f8f9fa;
     padding: 85px;
     padding-left:0px;
-
-
 }
 input{
     width: 80%;
@@ -635,9 +593,7 @@ textarea{
 }
 .margin-class-10{
     margin: 10px 20px;
-
 }
-
 /* last part FOOTER */
 .footer-background{
     background-image: url('tp7/stethoscope-white.jpg');
@@ -661,7 +617,6 @@ textarea{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 100%; */
 }
 .text-blue-class{
     color: dodgerblue;
@@ -693,11 +648,8 @@ textarea{
 .font-size-22-class{
     font-size:22px;
 }
-
-/* smallerscreens laptops */
-
+/* smallerscreens laptops/ starts at 1440px */
 @media screen and (max-width: 1440px) {
-
     .first-part{
         height: auto;
         font-size: 25px;
@@ -714,8 +666,7 @@ textarea{
         font-size: 15px;
     }
 }
-
-/*mobile  */
+/*mobile/ starts from 1060px  */
 @media screen and (max-width: 1060px) {
     .horizontalclass{
         display: flex;
@@ -734,7 +685,6 @@ textarea{
         background-color: black;
         color: white;
         justify-content:space-around;
-
     }
     .menu-icon{
         display: flex;
@@ -749,15 +699,10 @@ textarea{
     .navlinks{
         display: none;
     }
-    .color-white{
-        color: white;
-    }
     .mobile-only-hor{
         display: inline-block;
     }
-
 /* SLOGAN */
-
     .text-container-1{
         width: 90%;
         justify-content:center;
@@ -780,22 +725,16 @@ textarea{
         font-size: 15px;
         margin-bottom: 25px;
     }
-
     /* Second part */
-
     #second-part{
         flex-direction: column;
         height: auto;
     }
-
     .picture-doc-oldlady img{
         margin: 0% 5%;
         width:fit-content;
         max-width: 90%;
     }
-
-    /* ////picturedone/// */
-
     .text-second-part{
         width: 90%;
         margin: 0 5%;
@@ -816,7 +755,6 @@ textarea{
     #appointment-button-3{
         font-size: 15px;
     }
-
     .contactus-button{
         border-radius: 25px;
         padding: 15px 15px;
@@ -864,7 +802,6 @@ textarea{
     #time-picker:before {
         content:'Time:';
     }
-
     /* Third part your health is our priority */
     #third-part{
         height: 80%;
@@ -882,7 +819,6 @@ textarea{
         padding: 20px 20px;
         font-size: 20px;
     }
-
     /* mobile only DEPARTMENTS part */
     .departments-mobile-only-width{
         width:100%;
@@ -896,7 +832,6 @@ textarea{
         background-color: white;
         border-radius: 50%;
         padding: 20px;
-
     }
     .bottom-border-solid{
         border-bottom: 1px solid rgb(194, 194, 194); ;
@@ -905,9 +840,7 @@ textarea{
     .section-end-padding-50{
         padding-bottom: 50px;
     }
-
     /*      <!-- Fourth part OUR QUALIFIED DOCTORS--> */
-
     .fourth-head{
         width: 90%;
     }
@@ -925,25 +858,19 @@ textarea{
     }
     .about-doctor{
         font-size: 15px;
-
     }
     .book-now{
-
         padding: 10px 20px;
         font-size: 15px;
     }
-
     .card{
         margin: 10px 10%;
         width: 80%;
     }
     /* STATS PART */
-
     #fifth-part{
-
         height: auto;
     }
-
     .blue-layer{
         display: flex;
         opacity: 0.9;
@@ -955,7 +882,6 @@ textarea{
         height: auto;
         padding: 0 0;
         margin-top: 40px;
-
     }
     .fifth-parttext h1{
         font-size: 30px;
@@ -964,7 +890,6 @@ textarea{
         font-size: 13px;
     }
     .red-pill-button-class{
-
         width: 100%;
         padding: 10px 10px;
     }
@@ -974,15 +899,12 @@ textarea{
     .stats-class{
         width: 100%;
         color: white;
-
     }
     .table-numbers{
         font-size: 50px;
         margin-bottom: -5px;
     }
-
     /*     <!-- sixth part Gets every single update here/ Articles section--> */
-
     .sixth-head{
         width: 95%;
     }
@@ -1001,18 +923,13 @@ textarea{
         padding-left: 30px;
         width: 90%;
     }
-
     .six-card-1 img{
         height: auto;
-
     }
     .opacity-class{
         opacity: 0.6;
-
     }
-
     /*     <!-- Testimionials Seventh part OUR PATIENT SAYS--> */
-
     #seventh-part{
         height: auto;
     }
@@ -1044,10 +961,8 @@ textarea{
     }
     .red-blackground-circle{
         width: 3%;
-
     }
-    .icon-position-seventh
-    {
+    .icon-position-seventh{
         margin: 0% 55% 0% 55%;
         margin-bottom: -30px;
     }
@@ -1056,8 +971,6 @@ textarea{
         opacity: 1.0;
     }
     /*     <!-- Eighth part contact us --> */
-
-
     .contactus-head{
         width: 90%;
     }
@@ -1091,7 +1004,6 @@ textarea{
     /* maps form */
     .map-and-form{
         flex-direction: column-reverse;
-
     }
     .maps{
         width: 100%;
@@ -1101,17 +1013,14 @@ textarea{
         height:"450";
     }
     .form{
-        flex-direction: column;
         height:auto;
         padding: 0;
         width: 100%;
-
     }
     .font-15-class{
         font-size: 15px;
     }
     /*  footer sitemap */
-
     .footer-background{
         height: auto;
     }
@@ -1123,7 +1032,6 @@ textarea{
         justify-content: space-around;
         width: 90%;
     }
-
     .position-sitemap{
         width: 100%;
         height: auto;
@@ -1137,6 +1045,12 @@ textarea{
     .footer-table td{
         padding-left: 0;
         width: auto;
+    }
+    .padding-10{
+        padding:15px;
+    }
+    .margin-top-15{
+        margin-top: 15px;;
     }
     .copyright{
         text-align: center;
